@@ -60,5 +60,8 @@ https://qiita.com/hibiki8229/items/5bd675073c7e041e222f <br>
 ## UI System
 https://unity3d.com/jp/learn/tutorials/topics/user-interface-ui <br>
 
+## マネージド プラグイン
+https://docs.unity3d.com/jp/540/Manual/UsingDLL.html   
+自作DLLと連携させることが可能。  
 
 
