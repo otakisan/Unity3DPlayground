@@ -64,4 +64,6 @@ https://unity3d.com/jp/learn/tutorials/topics/user-interface-ui <br>
 https://docs.unity3d.com/jp/540/Manual/UsingDLL.html   
 自作DLLと連携させることが可能。  
 
+## ゲーム以外でのUnityの利用事例
+https://unity3d.com/jp/showcase/gallery/non-games   
 
