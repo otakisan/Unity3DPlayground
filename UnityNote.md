@@ -67,3 +67,8 @@ https://docs.unity3d.com/jp/540/Manual/UsingDLL.html
 ## ゲーム以外でのUnityの利用事例
 https://unity3d.com/jp/showcase/gallery/non-games   
 
+## フォント
+デフォルトでは、Arielのみ利用可能。  
+日本語フォントを別途Assetに追加するのが常識らしい。  
+M+ FONTS  
+http://mplus-fonts.sourceforge.jp/
