@@ -60,6 +60,14 @@ https://qiita.com/hibiki8229/items/5bd675073c7e041e222f <br>
 ## UI System
 https://unity3d.com/jp/learn/tutorials/topics/user-interface-ui <br>
 
+### ボタン
+http://www.atmarkit.co.jp/ait/articles/1503/11/news045_4.html   
+押下イベントをハンドリングして、任意のコードを実行したい場合、  
+スクリプトファイルを作るが、  
+対象のボタンを選択 -> Add Componentから作成するようにする。   
+単純にスクリプトファイルを作成しても、Add Componentから作らないと、  
+On Clickのところのドロップダウンで、Button Actionが表示されない。  
+
 ## マネージド プラグイン
 https://docs.unity3d.com/jp/540/Manual/UsingDLL.html   
 自作DLLと連携させることが可能。  
@@ -71,4 +79,10 @@ https://unity3d.com/jp/showcase/gallery/non-games
 デフォルトでは、Arielのみ利用可能。  
 日本語フォントを別途Assetに追加するのが常識らしい。  
 M+ FONTS  
-http://mplus-fonts.sourceforge.jp/
+http://mplus-fonts.sourceforge.jp/   
+
+## トラブルシューティング
+
+### インテリセンスが効かなくなった
+Unityがクラッシュするとなることがある。  
+https://stackoverflow.com/questions/42597501/autocompletion-not-working-in-visual-studio
