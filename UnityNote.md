@@ -30,9 +30,23 @@ Visual Studioを再度表示するようにすると、<br>
 そのタイミングでC#6を使用するよう設定されたプロジェクトファイルが再度生成され、使用可能になる。<br>
 
 ## Unity ログ出力
+https://docs.unity3d.com/jp/540/Manual/Console.html<br>
+
 UnityのConsoleに出力される。<br>
 Consoleの表示：Ctrl + Shift + C （メニューからは、Windows -> Console）<br>
 コード：Debug.Log、Debug.LogWarning および Debug.LogError
 
 Input.GetAxisは、ブレークの条件で「0でない」を設定しても止まらず。<br>
 ログ出力したところ、各軸ともに、-1～1の範囲で変化していることを確認。
+
+## Unity Windows デスクトップアプリケーションの作成・実行方法
+File -> Build Settings -> Build <br>
+プラットフォームを選択して作成できる。
+
+## Unityコンテンツが動作するユーザーコントロールの作成（Windows Forms）
+Unityコンテンツ側をdllにして使用するよりも、<br>
+Unityコンテンツのプロセスから、自作のツールライブラリを呼び出して使用するほうがスムーズにいくようにみえる。<br>
+
+Unityで作ったアプリを起動する際、解像度の指定を求められることから、<br>
+一般的なWindowsアプリで行われる、画面のリサイズはあまり想定していないように思える。<br>
+
