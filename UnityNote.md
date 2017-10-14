@@ -50,14 +50,15 @@ Unityコンテンツのプロセスから、自作のツールライブラリを
 Unityで作ったアプリを起動する際、解像度の指定を求められることから、  
 一般的なWindowsアプリで行われる、画面のリサイズはあまり想定していないように思える。  
 
+Windows Forms などに連携する方法もあるようだが、  
+基本はUnityのUIシステムを使用して、Unityで完結させるのが好ましいと思われる。   
+物理演算を必要としないが、3Dやアニメーションを使用したいのであれば、おとなしくWPFを使用するほうがよさそう。   
+
+OnGUIというメソッドを定義してのハンドリングもある。（というより、Unityエディタへのカスタムツールの組み込み？）  
+https://qiita.com/hibiki8229/items/5bd675073c7e041e222f <br>
+
 ## UI System
 https://unity3d.com/jp/learn/tutorials/topics/user-interface-ui <br>
-
-Windows Forms などに連携する方法もあるようだが、  
-基本はUnityのUIシステムを使用するのが好ましいと思われる。  
-
-OnGUIというメソッドを定義してのハンドリングもある。  
-https://qiita.com/hibiki8229/items/5bd675073c7e041e222f <br>
 
 
 
